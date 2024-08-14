@@ -1,0 +1,31 @@
+body{
+    background-color: burlywood;
+}
+
+.tittle{
+    color: black;
+    text-align: center;
+}
+
+.gridbox{
+background-color: white;
+gap: 10% 10%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+text-align: center;
+}
+
+.gridbox>.cruz>img{
+    width: 80%;
+}
+/*.gridbox>.cruz{
+    width: 80%;
+}*/
+
+.gridbox>.cris>img{
+    width: 80%;
+}
+
+.gridbox>.isa>img{
+    width: 80%;
+}
